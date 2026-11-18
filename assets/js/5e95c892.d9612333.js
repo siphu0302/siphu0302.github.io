@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpic_electronics_blog=self.webpackChunkpic_electronics_blog||[]).push([["1668"],{6569(e,c,r){r.r(c),r.d(c,{default:()=>i});var s=r(4848);r(6540);var l=r(4164),a=r(4308),n=r(8287),t=r(2831),u=r(1085);function i(e){return(0,s.jsx)(a.e3,{className:(0,l.A)(n.G.wrapper.docsPages),children:(0,s.jsx)(u.A,{children:(0,t.v)(e.route.routes)})})}}}]);
