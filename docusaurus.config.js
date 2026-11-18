@@ -27,9 +27,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'siphu0302', // Usually your GitHub org/user name.
+  projectName: 'siphu0302.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set

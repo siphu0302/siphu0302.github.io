@@ -25,7 +25,7 @@ const sidebars = {
     'hello',
     {
       type: 'category',
-      label: 'Tài liệu học tập',
+      label: 'Tutorial',
       items: ['tutorial-basics/create-a-document'],
     },
   ],
