@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/blog</id>
-    <title>Blog PIC &amp; Điện Tử Blog</title>
+    <title>PIC &amp; Điện Tử Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
-    <subtitle>Blog PIC &amp; Điện Tử Blog</subtitle>
+    <subtitle>PIC &amp; Điện Tử Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/https://siphu0302.github.io</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
