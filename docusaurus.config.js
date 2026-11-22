@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Blog PIC & Điện Tử',
-  tagline: 'Hành trình từ Zero đến Hero',
+  title: 'PIC & Điện Tử',
+  tagline: 'Ghi chép thực hành nền tảng điện mạch và vi điều khiển PIC dễ hiểu, trực quan',
   favicon: 'https://siphu0302.github.io',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -82,27 +82,23 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tài liệu học tập',
-          },
-          {to: '/blog', label: 'Bài viết mới', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+navbar: {
+  title: 'PIC & Điện tử',
+  items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'tutorialSidebar',
+      position: 'left',
+      label: 'Bài học',
+    },
+    {to: '/blog', label: 'Ghi chú nhanh', position: 'left'},
+    {
+      href: 'https://github.com/siphu0302/siphu0302.github.io',
+      label: 'GitHub',
+      position: 'right',
+    },
+  ],
+},
       footer: {
         style: 'dark',
         links: [
