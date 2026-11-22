@@ -107,7 +107,7 @@ navbar: {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/nen-tang-dien/dinh-luat-ohm',
               },
             ],
           },

@@ -7,19 +7,19 @@ const TOPICS = [
     title: '1. Nền tảng Điện & Mạch cơ bản',
     description:
       'Nắm chắc Định luật Ohm, Định luật Kirchhoff (KCL & KVL), mạch phân áp và cách bảo vệ chân I/O an toàn.',
-    link: '/docs/1-nen-tang-dien/1-dinh-luat-ohm',
+    link: '/docs/nen-tang-dien/dinh-luat-ohm',
   },
   {
     title: '2. Thực hành tính toán mạch',
     description:
       'Áp dụng công thức vào bài toán thực tế như chọn điện trở hạn dòng cho LED và chia áp đọc tín hiệu ADC.',
-    link: '/docs/1-nen-tang-dien/2-dinh-luat-kirchhoff',
+    link: '/docs/nen-tang-dien/dinh-luat-kirchhoff',
   },
   {
     title: '3. Vi điều khiển PIC & Ngoại vi',
     description:
-      'Ghi chép hành trình thực hành với vi điều khiển PIC, kết nối cảm biến, hiển thị và các mạch điều khiển.',
-    link: '/docs/intro',
+      'Lộ trình tiếp theo ghi chép thực hành với vi điều khiển PIC, kết nối cảm biến, hiển thị và mạch điều khiển.',
+    link: '/docs/nen-tang-dien/dinh-luat-ohm',
   },
 ];
 
@@ -57,13 +57,13 @@ export default function Home() {
           <div className="heroActions">
             <Link
               className="button button--primary button--lg"
-              to="/docs/1-nen-tang-dien/1-dinh-luat-ohm">
+              to="/docs/nen-tang-dien/dinh-luat-ohm">
               Bắt đầu từ Định luật Ohm
             </Link>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
-              Xem toàn bộ tài liệu
+              to="/docs/nen-tang-dien/dinh-luat-kirchhoff">
+              Học Định luật Kirchhoff
             </Link>
           </div>
         </div>
